@@ -1,0 +1,136 @@
+header{
+    /*margin: 0 30px;*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    min-height: 60px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #F9FAF8;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.intro-text .hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-text #hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-1 {
+    max-width: 80px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.intro img {
+    height: 200px;
+    min-width: 400px;
+    background-color: aliceblue;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.features .title-small{
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+}
+
+.quote , .testimonial p{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    max-height: 10vh;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.cta p {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.btn-2 {
+    width: 80px;
+    height: 30px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    min-height: 60px;
+    color: #F9FAF8;
+}
